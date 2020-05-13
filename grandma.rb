@@ -14,8 +14,11 @@
 
 speak_to_grandma = "I love you Grandma!"
 
-if speak_to_grandma == "I love you Grandma".upcase||"I LOVE YOU GRANDMA!"
+if speak_to_grandma == "I love you Grandma!.upcase
   puts "I LOVE YOU TOO PUMPKIN!"
+  
+elsif speak_to_grandma == "I love you Grandma!.upcase || "I LOVE YOU GRANDMA!"
+puts "HUH?! SPEAK UP, SONNY!"
   
 else speak_to_grandma != "I love you Grandma".upcase
  puts "HUH?! SPEAK UP, SONNY!"
