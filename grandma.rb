@@ -12,6 +12,12 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-speak_to_grandma
+speak_to_grandma = "I love you Grandma!"
 
-if "I"
+if speak_to_grandma == "I love you Grandma".upcase||"I LOVE YOU GRANDMA!"
+  puts "I LOVE YOU TOO PUMPKIN!"
+  
+elsif speak_to_grandma != "I love you Grandma".upcase
+ puts "HUH?! SPEAK UP, SONNY!"
+ 
+ 
